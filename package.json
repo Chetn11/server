@@ -1,16 +1,25 @@
 {
-  "name": "sever",
+  "name": "server",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chetn11/server.git",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chetn11/server/issues"
+  },
+  "homepage": "https://github.com/Chetn11/server#readme",
   "dependencies": {
-    "json-server": "^0.17.3"
+    "json": "^11.0.0",
+    "server": "^1.0.38"
   }
 }
